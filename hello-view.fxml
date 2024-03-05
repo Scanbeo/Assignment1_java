@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.fxml.*?> <!-- Add this line to import the fx namespace -->
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom right, #d3e0e6, #ebeef0);" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.assignment1.HelloController">
+   <children>
+      <PieChart fx:id="pieChart" layoutX="50.0" layoutY="50.0" prefHeight="300.0" prefWidth="500.0" />
+
+      <Button fx:id="tableViewButton" layoutX="475.0" layoutY="360.0" style="-fx-background-color: #3f51b5; -fx-text-fill: white;" styleClass="button-style" text="View Data" />
+
+      <Text fill="#3f51b5" fontSmoothingType="LCD" layoutX="212.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title-text" text="GDP GROWTH - 2022" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
